@@ -1,0 +1,121 @@
+/* PROJECT */
+.project {
+    padding-top: 65px;
+}
+
+.project__top {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project__top::before{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 360px;
+    height: 5px;
+    background-color: black;
+    top: 20px;
+    border-radius: 5px;
+    left: 175px;
+}
+.project__top::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 360px;
+    height: 5px;
+    background-color: black;
+    top: 20px;
+    right: 175px;
+    border-radius: 5px;
+}
+
+
+
+.project__top .project__heading {
+    font-size: 4rem;
+    font-weight: 1000;
+    line-height: 1.2;
+    color: #ff5151;
+    text-align: center;
+}
+
+.project__top .project__desc {
+    margin-top: 5px;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #5f5b53;
+}
+
+.project__bottom {
+    display: flex;
+    margin: 10px 130px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project__img {
+    width: 75%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-left: 150px;
+}
+
+.project__content {
+    width: 100%;
+}
+
+.project__content .content-heading {
+    color: #111;
+    font-size: 4rem;
+    font-weight: 900;
+    /* background-color: #ff5151; */
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.project__content .content-desc {
+    font-weight: 500;
+    line-height: 1.75;
+    font-size: 1.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px;
+    color: #5f5b53;
+}
+
+.project__content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 285px;
+    font-weight: 800px;
+    border-radius: 35px;
+    background-color: #ff5151;
+    color: #111;
+    padding: 15px 0;
+    font-size: 1.8rem;
+    box-shadow: 0px 13px 26px -8px #ff5b2e6b;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+.project__content .arrow {
+    width: 30px;
+    height: 30px;
+    background-color: #111;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700px;
+}
+
+.project__content .arrow img {
+    width: 15px;
+    height: 15px;
+}
